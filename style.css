@@ -27,6 +27,12 @@
   margin-bottom: 15px;
 }
 
+.hero_area_text {
+  display: flex;
+  height: calc(100vh - 102px);
+  flex-direction: column;
+}
+
 .offer_area {
   position: relative;
   padding-top: 45px;
@@ -37,8 +43,8 @@
   display: flex;
   align-items: center;
   margin-top: 45px;
-  padding: 20px 15px;
-  border-radius: 5px;
+  padding: 15px;
+  border-radius:100px 15px 15px 100px;
   background-color: #222831;
   color: white;
 }
@@ -47,11 +53,19 @@
   width: 175px;
   min-width: 175px;
   height: 175px;
-  margin-right: 15px;
+  margin-right: 60px;
   position: relative;
   overflow: hidden;
-  border-radius: 100%;
+  border-radius: 50%;
   border: 5px solid #ffbe33;
+}
+
+.box .img_box img {
+  transition: all 1s;
+}
+
+.box:hover .img_box img {
+  transform: scale(1.2);
 }
 
 .food_section {
@@ -122,4 +136,8 @@
   justify-content: center;
   border-radius: 100%;
   align-items: center;
+}
+
+.nav-link:hover {
+  color: #ffbe33 !important;
 }
