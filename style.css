@@ -53,3 +53,73 @@
   border-radius: 100%;
   border: 5px solid #ffbe33;
 }
+
+.food_section {
+  padding-bottom: 90px;
+}
+
+.food_header {
+  align-items: center;
+  text-align: center;
+}
+
+.h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.items_menu {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 45px 0 20px 0;
+}
+
+.act {
+  background-color: black;
+  color: white;
+}
+
+.f_list {
+  padding: 7px 25px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.visual_box {
+  position: relative;
+  margin-top: 25px;
+  color: white;
+  overflow: hidden;
+  border-radius: 0 0 15px 15px;
+  /* background: linear-gradient(90deg, #4b5258 33%, #222831 76%, #4e060c); */
+  background: #222831;
+}
+
+.v_img_box {
+  background: white;
+  align-items: center;
+  height: 215px;
+  border-radius: 0 0 0 45px;
+  padding: 25px;
+  width: 100%;
+}
+
+.detail_box {
+  padding: 25px;
+}
+
+.others {
+  display: flex;
+  justify-content: space-between;
+}
+
+.a_box {
+  width: 40px;
+  height: 40px;
+  background: #ffbe33;
+  display: flex;
+  justify-content: center;
+  border-radius: 100%;
+  align-items: center;
+}
