@@ -17,6 +17,10 @@
   object-fit: cover;
 }
 
+.nav-link:hover {
+  color: #ffbe33 !important;
+}
+
 .navbar-brand{
   font-family: 'Dancing Script', cursive;
 }
@@ -147,6 +151,6 @@
   align-items: center;
 }
 
-.nav-link:hover {
-  color: #ffbe33 !important;
+.intro {
+  padding-top: 90px;
 }
