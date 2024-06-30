@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
-.hero_area{
+
+.hero_area {
   position: relative;
   width: 100%;
   min-height: 100vh;
 }
+
 .hero_area .background {
   position: absolute;
   width: 100%;
@@ -21,7 +23,7 @@
   color: #ffbe33 !important;
 }
 
-.navbar-brand{
+.navbar-brand {
   font-family: 'Dancing Script', cursive;
 }
 
@@ -48,7 +50,7 @@
   align-items: center;
   margin-top: 45px;
   padding: 15px;
-  border-radius:100px 15px 15px 100px;
+  border-radius: 100px 15px 15px 100px;
   background-color: #222831;
   color: white;
 }
@@ -153,4 +155,47 @@
 
 .intro {
   padding-top: 90px;
+}
+
+.comment_area {
+  display: flex;
+  /* margin: 15px; */
+}
+
+.comment_box {
+  height: auto;
+  background: #222831;
+  color: white;
+  padding: 25px 25px 15px 25px;
+  border-radius: 5px;
+}
+
+.comment_img {
+  display: flex;
+  align-items: center;
+  width: 115px;
+  margin-top: 30px;
+}
+
+.comment_img img {
+  border-radius: 50%;
+  border: 5px solid #ffbe33;
+}
+
+.footer_section {
+  background: #222831;
+  color: white;
+  align-items: center;
+  padding: 75px 0 40px 0;
+  text-align: center;
+}
+
+.footer_link {
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.footer_info {
+  padding: 10px;
 }
