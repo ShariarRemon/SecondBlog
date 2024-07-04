@@ -123,6 +123,7 @@
   border-radius: 0 0 0 45px;
   padding: 25px;
   width: 100%;
+  overflow: hidden;
 }
 
 .v_img_box img {
